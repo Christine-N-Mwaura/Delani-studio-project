@@ -1,0 +1,15 @@
+.container-full{
+  background-image: url("../images/h_img.jpg");
+  background-position: center;
+  text-align:center;
+  height: auto;
+  background-size: cover;
+  /* padding-top:25%; */
+  text-decoration-color: white;
+}
+.landing{
+
+}
+#logo{
+  padding-top: 10%;
+}
