@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 .container-full{
   background-image: url("../images/h_img.jpg");
   background-position: center;
@@ -37,6 +40,25 @@ font-size: 16px;
 #whatWeDo h2{
   padding-top: 3%;
 }
-#whatWeDo col-md-4{
-  padding-top: 5%;
+.overlay{
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 90%;
+}
+.work-image{
+  position: relative;
+
+}
+.wonger{
+  width: 80%;
+  height: 80%;
+  border: 2px solid #fff;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.wonger h1{
+  text-align: left;
 }
