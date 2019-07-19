@@ -62,3 +62,30 @@ font-size: 16px;
 .wonger h1{
   text-align: left;
 }
+#form{
+  background-image: url("../images/c_image.jpg");
+}
+.input{
+  display: inline;
+
+}
+#form input{
+  width:35%;
+  background-color: transparent;
+
+}
+#name{
+  margin-left: 12%;
+}
+#email{
+  margin-left:5%;
+}
+#form textarea{
+  background-color: transparent;
+}
+::placeholder{
+  color: white;
+}
+[type=submit]{
+  width: 30%;
+}
