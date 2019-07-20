@@ -82,13 +82,26 @@ font-size: 16px;
 }
 #form textarea{
   background-color: transparent;
-}
-::placeholder{
   color: white;
 }
-[type=submit]{
-  width: 30%;
+#email::placeholder{
+  color: white;
+}
+#name::placeholder{
+  color: white;
+}
+textarea::placeholder{
+  color: white;
 }
 .icon{
   padding-left: 20px;
+}
+#design{
+  display: none;
+}
+#development{
+  display: none;
+}
+#product-mgt{
+  display: none;
 }
