@@ -61,6 +61,9 @@ font-size: 16px;
 }
 .wonger h1{
   text-align: left;
+  font-size: 25px;
+  font-style:oblique;
+
 }
 #form{
   background-image: url("../images/c_image.jpg");
@@ -76,9 +79,11 @@ font-size: 16px;
 }
 #name{
   margin-left: 12%;
+  color :white;
 }
 #email{
   margin-left:5%;
+  color: white;
 }
 #form textarea{
   background-color: transparent;
@@ -87,6 +92,7 @@ font-size: 16px;
 #email::placeholder{
   color: white;
 }
+
 #name::placeholder{
   color: white;
 }
