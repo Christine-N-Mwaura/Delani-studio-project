@@ -60,8 +60,9 @@ font-size: 16px;
   margin-top: 10%;
 }
 .wonger h1{
-  text-align: left;
+  text-align: center;
   font-size: 25px;
+  padding-top: 30%;
   font-style:oblique;
 
 }
@@ -115,7 +116,11 @@ textarea::placeholder{
 
 }
 .work1-overlay,.work2-overlay,.work3-overlay,.work4-overlay,.work5-overlay,.work6-overlay,.work7-overlay,.work8-overlay {
+<<<<<<< HEAD
   display: none;
+=======
+    display: none;
+>>>>>>> master
     background-color: black;
     opacity: 0.7;
     position: absolute;
