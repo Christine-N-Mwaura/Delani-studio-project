@@ -60,8 +60,9 @@ font-size: 16px;
   margin-top: 10%;
 }
 .wonger h1{
-  text-align: left;
+  text-align: center;
   font-size: 25px;
+  padding-top: 30%;
   font-style:oblique;
 
 }
