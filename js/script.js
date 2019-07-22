@@ -22,7 +22,6 @@ $(document).ready(function(){
   }).mouseout(function() {
     $('.work1-overlay').hide();
   });
-
   $(".work2").mouseenter(function() {
     $(".work2-overlay").show();
   }).mouseleave(function() {
@@ -66,13 +65,15 @@ $(document).ready(function(){
            var email = $("input#email").val();
            var message = $("textarea#message").val();
 
-           if ($("input#name").val() && $("input#email").val()){
+           if ($("input#name").val() && $("input#email").val() && $("input#message").val() ){
                alert ("Hello " + name + ", Thank you for reaching out, we'll get back to you shortly...");
            }
-           else {
-               alert("Please provide your correct name and email!");
+           else if($("input#name").val() && $("input#email").val()){
+               alert("Thank you for reaching ou to us. If you wish to leave a message please type in on the message section..");
            }
-
+          else{
+            alert("Please provide correct name or email")
+          }
        });
 
 });
